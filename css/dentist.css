@@ -1,0 +1,140 @@
+.our-doctor-slide{
+	width: 100%;
+	min-height: 90vh;
+    background-image: url('https://img.freepik.com/free-photo/beautiful-night-sky-with-shiny-stars_53876-16414.jpg?w=900&t=st=1675222740~exp=1675223340~hmac=30c64cb98fe2ca7ef3554455fd0d447221cebba533f451d68f159c7f79e3aa5e');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100vw 90vh;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+    margin-top: 4rem;
+}
+
+.more-doctors{
+	font-size: 2rem;
+	color: white;
+	background-color: #00bcd4;
+	padding: 1rem;
+	width: 3rem;
+	border-radius: 50%;
+	text-align: center;
+	margin-top: 3rem;
+	cursor: pointer;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: flex-end;
+    text-align: right;
+    margin-right: 8rem;
+}
+
+.info h3{
+    color: white;
+	font-weight: 800;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.info h3 span{
+    color: #00bcd4;
+}
+
+.info p{
+    color: white;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+.doctorname{
+	margin: 6rem 2rem 0rem 2rem;
+}
+
+.services-info{
+	margin-bottom: 0;
+}
+
+.info-img-dentist{
+    height: 30rem;
+    border-radius: 1rem;
+    margin-left: 3rem;
+}
+
+.info-img{
+    flex: 1;
+}
+
+.info-btn{
+    width: 15rem;
+    height: 3rem;
+    color: #00bcd4;
+    font-size: 1.2rem;
+    font-size: bold;
+    border: none;
+    border-radius: 1rem;
+    border: 3px solid #00bcd4;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.info-btn:hover{
+    background-color: #00bcd4;
+    color: white;
+}
+
+.services{
+    width: 100%;
+    padding-bottom: 5rem;
+}
+
+@media only screen and (max-width: 850px){
+    .our-doctor-slide{
+        min-height: 50vh;
+        border-radius: 1rem;
+        margin-top: 6rem;
+        background-size: 100vw 100vh;
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+    
+    .more-doctors{
+        width: 2rem;
+    }
+    
+    .info{
+        text-align: center;
+        align-items: center;
+    }
+    
+    .info-img-dentist{
+        height: 25rem;
+        margin-left: 0rem;
+    }
+    
+    .info{
+        margin-right: 0rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media only screen and (max-width: 630px){
+    .info-img-dentist{
+        height: 15rem;
+    }
+    
+    .info{
+        margin-top: 1rem;
+    }
+    
+    .info h3{
+        font-size: 1.9rem;
+    }
+    
+    .info p{
+        font-size: 0.9rem;
+        padding: 0rem 1rem;
+    }
+}

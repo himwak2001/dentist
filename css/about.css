@@ -1,0 +1,351 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html, body{
+	box-sizing: border-box;
+	width: 100vw;
+}
+
+.about-dentist{
+	width: 100%;
+	min-height: 500px;
+    background:
+    url("https://www.msystechnologies.com/wp-content/uploads/2020/01/about-us-banner-1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100vw 500px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	box-sizing: border-box;
+    padding-left: 6rem;
+}
+
+.about-info{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+    margin-left: 3rem;
+    width: 30rem;
+}
+
+.about-sub-heading{
+	font-size: 3rem;
+	font-weight: bold;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.about-heading{
+	font-size: 1rem;
+	color: white;
+}
+
+.about-heading a{
+	color: white;
+	text-decoration: none;
+	font-weight: 400;
+}
+
+.about-details{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5rem;
+    background-color: #ECF9FF;
+    padding-top: 3rem;
+}
+
+.about-desc{
+    width: 60%;
+    text-align: center;
+    line-height: 2.1rem;
+    font-size: 1.2rem;
+}
+
+.about-vision{
+    margin-top: 5rem;
+    width: 60%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-vision p{
+    line-height: 2.1rem;
+    font-size: 1.2rem;
+}
+
+.about-under{
+    height: 0.3rem;
+    background-color: #00bcd4;
+    width: 30%;
+    border-radius: 0.2rem;
+    margin-bottom: 3rem;
+}
+
+.about-vision h3{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.about-services{
+	width: 100%;
+	min-height: 640px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 1rem;
+	box-sizing: border-box;
+    background-color: #EEEEEE;
+}
+
+.about-service-info{
+	margin-top: 3rem;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.about-service-sub-heading{
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #00bcd4;
+}
+
+.about-service-heading{
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+.dental-service-icon{
+	border: 5px solid transparent;
+	border-radius: 2rem;
+	display: flex;
+	width: 60rem;
+	box-sizing: border-box;
+	align-items: center;
+	box-shadow: 2px 2px 10px #e6e6e6;
+	margin-top: 2rem;
+    overflow: hidden;
+    background-color: white;
+    margin-bottom: 5rem;
+}
+
+.service-icon-div{
+	flex: 1;
+	width: 12rem;
+	height: 12rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 5rem;
+	color: #00bcd4;
+	border-radius: 0rem;
+}
+
+.dental-service{
+	margin-top: 4rem;
+}
+
+.dental-service-info{
+	font-size: 1.2rem;
+	flex: 3;
+	padding: 0rem 1.5rem;
+}
+
+.dental-service-icon:hover .service-icon-div{
+	color: white;
+	background-color: #00bcd4;
+	transition: all 1s ease;
+}
+
+.dental-service-icon:hover{
+	border: 5px solid #00bcd4;
+	transition: all 1s ease;
+}
+
+.about-hero{
+	width: 100vw;
+	height: 15rem;
+	background-color: #0096e0;
+	margin-bottom: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0rem 2rem;
+	box-sizing: border-box;
+	margin-bottom: 0rem;
+}
+
+.hero-info{
+	text-align: center;
+	color: white;
+}
+
+.hero-info h2{
+	margin-bottom: 1rem;
+	font-size: 2.5rem;
+}
+
+.about-us-div{
+	width: 100%;
+	box-sizing: border-box;
+	height: 640px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.about-main-div{
+	height: 20rem;
+	width: 50rem;
+	box-sizing: border-box;
+	background-color: white;
+	display: flex;
+	border-radius: 1rem;
+	box-shadow: 2px 2px 10px #e6e6e6;
+}
+
+.about-main-div:hover{
+	box-shadow: 5px 5px 10px 5px #ededed;
+	transition: all 0.5s ease;
+}
+
+.about-img-div{
+	flex: 1;
+}
+
+.about-img-div img{
+	height: 20rem;
+	border-radius: 1rem;
+}
+
+.about-info-div{
+	flex: 2;
+	padding: 2rem;
+}
+
+.about-info-div h4{
+	font-weight: bold;
+	color: #00bcd4;
+}
+
+.about-info-div h3{
+	font-size: 1.6rem;
+	margin: 1rem 0rem;
+}
+
+@media only screen and (max-width: 850px){
+    .about-dentist{
+        background-size: 500vw 300px;
+        min-height: 300px;
+        margin-top: 3.5rem;
+        padding-left: 0.1rem;
+    }
+    
+    .about-info{
+        width: 20rem;
+    }
+    
+    .about-sub-heading{
+        font-size: 1.8rem;
+    }
+
+    .about-heading{
+	   font-size: 0.9rem;
+    }
+    
+    .dental-service-icon{
+		flex-direction: column;
+		width: 18rem;
+		height: 22rem;
+		padding: 0;
+		margin: 4rem 0rem;
+        border-radius: 2rem;
+	}
+
+	.service-icon-div{
+		width: 100%;
+		height: 6rem;
+		padding: 2rem 0rem;
+		border-radius: 0.8rem;
+		order: 1;
+	}
+
+	.dental-service-info{
+		flex: 2;
+		margin-top: 1.5rem;
+		margin-bottom: 1.5rem;
+		order: 2;
+        font-size: 1rem;
+	}
+
+	.about-service-sub-heading{
+		font-size: 1.2rem;
+	}
+
+	.about-service-heading{
+		font-size: 2.2rem;
+	}
+
+	.about-main-div{
+		flex-direction: column;
+		width: 20rem;
+		height: 30rem;
+		margin-bottom: 3rem;
+		margin-top: 5rem;
+	}
+
+	.about-main-div p{
+		display: none;
+	}
+
+	.about-img-div img{
+		width: 20rem;
+	}
+
+	.hero-info h2{
+		font-size: 2rem;
+	}
+
+	.hero-info p{
+		font-size: 1rem;
+	}
+    
+    .about-info-div h3{
+		font-size: 1.6rem;
+		margin: 0.5rem 0rem;
+	}
+    
+    .about-desc{
+        width: 80%;
+    }
+    
+    .about-desc p{
+        font-size: 0.9rem;
+    }
+    
+    .about-vision h3{
+        font-size: 2rem;
+    }
+    
+    .about-vision p{
+        font-size: 0.9rem;
+    }
+    
+    .hero-info h2{
+        font-size: 2rem;
+    }
+    
+    .hero-info p{
+        font-size: 0.9rem;
+    }
+}
+
+	
